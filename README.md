@@ -1,3 +1,6 @@
+# How to run it on your machine?
+npm i && npm start
+
 # fetch-table-react
 Table component designed with React and populated with fetched data from JSONPlaceholder. Includes custom JSON flatten function. 
 ![image](https://github.com/vegadelalyra/fetch-table-react/assets/77188420/3313a8b8-5056-473b-a124-7d0b6b8c0f51)
