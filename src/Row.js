@@ -24,9 +24,9 @@ function flatObject(nestedObject, parentKey = '') {
         if (typeof value != 'object') return flattenedObject[newKey] = value
 
         const objectValueFlattened = flatObject(value, newKey)
-        flattenedObject = { ...flattenedObject, ...objectValueFlattened}
+        return flattenedObject = { ...flattenedObject, ...objectValueFlattened}
     })
-    
+
     return flattenedObject
 }
 
